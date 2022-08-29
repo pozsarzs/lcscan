@@ -1,0 +1,64 @@
+dnl +--------------------------------------------------------------------------+
+dnl | LCScan v0.3r3 * Logical circuit scanner                                  |
+dnl | Copyright (C) 2006-2012 Pozsar Zsolt <pozsarzs@gmail.com>                |
+dnl | configure.in                                                             |
+dnl | Autoconf input file.                                                     |
+dnl +--------------------------------------------------------------------------+
+
+AC_INIT(source/config.inc.in)
+AC_CONFIG_AUX_DIR(config)
+AC_CANONICAL_SYSTEM
+
+AC_PREFIX_DEFAULT("/usr/local")
+test x"$prefix" = xNONE && prefix="$ac_default_prefix"
+
+AC_PATH_PROG(rm, rm, no)
+AC_PATH_PROG(install, install, no)
+AC_CHECK_PROGS(make, gmake make)
+AC_CHECK_PROGS(havefpc,ppc386,no)
+
+test x"$havefpc" = xno && AC_MSG_ERROR(There is not FreePascal compiler on your system.)
+AC_CHECK_PROGS(havelazarus,lazarus,no)
+
+test x"$havelazarus" = xno && AC_MSG_ERROR(There is not Lazarus IDE on your system.)
+DIRS=`whereis lazarus`
+DIR=`echo $DIRS | awk '{ print $4 }'`
+lazdir=`find $DIR/*.*.* -maxdepth 0`
+
+version=`cat documents/VERSION`
+
+architecture='i386'
+case $target_cpu in
+  'i586') architecture='i586';;
+  'i686') architecture='i586';;
+esac
+case $architecture in
+  'i386') fpflag='-Op386';;
+  'i586') fpflag='-OpPENTIUM';;
+esac
+
+AC_SUBST(architecture)
+AC_SUBST(bindir)
+AC_SUBST(datadir)
+AC_SUBST(fpflag)
+AC_SUBST(install)
+AC_SUBST(lazdir)
+AC_SUBST(libdir)
+AC_SUBST(make)
+AC_SUBST(prefix)
+AC_SUBST(rm)
+AC_SUBST(sysconfdir)
+AC_SUBST(version)
+
+AC_OUTPUT( Makefile.global source/config.inc )
+
+echo "
+Summary
+=======
+    Op. system		$host_os
+    Target processor	$architecture
+    Programme version	$version
+    Install prefix	$prefix
+
+  Type '${make}' for compilation and then '${make} install'.
+"

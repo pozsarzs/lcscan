@@ -1,0 +1,51 @@
+LCScan telepítési utasítás Linux operációs rendszerhez
+======================================================
+
+1. Telepítés
+------------
+
+a. Telepítés bináris '.tar.gz' csomagból
+
+    # cp lcscan-0.3r3-i586.tar.gz /opt
+    # cd /opt
+    # tar -xzf lcscan-0.3r3-i586.tar.gz
+    # cd lcscan
+    # ./create_links
+    
+                vagy
+
+    # tar -xzf lcscan-0.3r3-i586.tar.gz
+    # cd lcscan
+    # ./install
+
+b. Telepítés '.bin' csomagból
+
+    # ./lcscan-0.3r3-i586.bin
+
+c. Telepítés forráscsomagból
+     
+    # tar -xzf lcscan-0.3r3.tar.gz
+    # ./configure
+    # make
+    # make install
+
+2. Eltávolítás
+--------------
+
+a. Ha bináris '.tar.gz' csomagból telepítette
+
+    # /opt/lcscan/remove_links
+    # rm -r /opt/lcscan/
+
+            vagy
+
+    # /opt/lcscan/uninstall
+
+b. Ha '.bin' csomagból telepítette
+
+    # /opt/lcscan/uninstall
+
+c. Ha forráscsomagból telepítette
+
+    # make uninstall
+

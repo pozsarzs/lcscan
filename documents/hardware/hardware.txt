@@ -1,0 +1,187 @@
+ 
+                               Interface of LCScan
+                               ~~~~~~~~~~~~~~~~~~~
+
+I. Files
+~~~~~~~~
+
+  hardware.txt		this file
+
+  component_side.ps	component side of board	(Postscript - A/4)
+  schematic.ps		schematic draw		(Postscript - A/4)
+  silk_screen.ps	silk screen of board	(Postscript - A/4)
+  solder_side.ps	solder side of board	(Postscript - A/4)
+
+  lcscan.brd		printed circuit board file
+  lcscan.cmp		component list
+  lcscan.net		netlist
+  lcscan.pro		project file
+  lcscan.sch		schematic draw file
+  lcscan.stf		component/module list
+
+
+II. General information
+~~~~~~~~~~~~~~~~~~~~~~
+
+  Ups: 8..12V DC
+  Il:  150 mA + external load
+
+
+III. Component list
+~~~~~~~~~~~~~~~~~~
+
+  +----------------------------------------------+
+  | position | name                | type/value  |
+  +----------+---------------------+-------------+
+  | C1-C8    | capacitor           | 100 pF      |
+  | C9       | polarized capacitor | 1 uF 16V    |
+  | C10-13   | capacitor           | 1 nF        |
+  | C14-15   | capacitor           | 1 nF        |
+  | C16      | polarized capacitor | 1000 uF 25V |
+  | D1-16    | diode               | 1N4148      |
+  | D17      | LED                 | 5 mm        |
+  | D18      | diode               | BY135       |
+  | J1       | connector           | DB15 Female |
+  | J2-3     | connector           | DB9 Female  |
+  | J4       | connector           | 2.5 jack    |
+  | J5-6     | connector           | banana jack |
+  | R1-9     | resistor            | 470 ohm     |
+  | SW1      | switch              |             |
+  | U1-2     | IC                  | 74LS14      |
+  | U3       | IC                  | 74LS245     |
+  | U4       | IC                  | 74LS157     |
+  | U5       | IC                  | 7805        |
+  +----------------------------------------------+
+
+
+IV. Internal  cables and connectors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Between 'PC' connector and board
+  +--------------+
+  | 'PC' | board |
+  +------+-------+
+  |   1  | J6    |
+  |   2  | J1b/1 |
+  |   3  | J1c/1 |
+  |   4  | J1c/3 |
+  |   5  | J1a/2 |
+  |   6  | J1a/4 |
+  |   7  | J1a/6 |
+  |   8  | J1a/8 |
+  |   9  | J1b/3 |
+  |  10  | J1b/2 |
+  |  11  | J1c/2 |
+  |  12  | J1a/1 |
+  |  13  | J1a/3 |
+  |  14  | J1a/5 |
+  |  15  | J1a/7 |
+  +------+-------+
+
+  Between 'In' connector and board
+  +--------------+
+  | 'In' | board |
+  +------+-------+
+  |   1  | J2/8  |
+  |   2  | J2/6  |
+  |   3  | J2/4  |
+  |   4  | J2/2  |
+  |   5  | J2/1  |
+  |   6  | J2/7  |
+  |   7  | J2/5  |
+  |   8  | J2/3  |
+  |   9  | J6    |
+  +------+-------+
+
+  Between 'Out' connector and board
+  +--------------+
+  |'Out' | board |
+  +------+-------+
+  |   1  | J3/8  |
+  |   2  | J3/6  |
+  |   3  | J3/4  |
+  |   4  | J3/2  |
+  |   5  | J3/1  |
+  |   6  | J3/7  |
+  |   7  | J3/5  |
+  |   8  | J3/3  |
+  |   9  | J6    |
+  +------+-------+
+
+  Between 'Power' connector and board
+  +--------------+
+  |'Pwr' | board |
+  +------+-------+
+  | +U   | J4/1  |
+  | GND  | J4/2  |
+  +--------------+
+
+  Other connectors: 
+  J5: to '+5 V' banana jack
+  J6: to 'GND' banana jack
+  D17: 'power on' LED (1-Anode)
+  SW1: 'power' switch
+
+
+V. External connectors
+~~~~~~~~~~~~~~~~~~~~~~
+
+  'PC' connector          'In' connector          'Out' connector     
+  +-----------------+	  +-----------------+	  +-----------------+
+  | pin | function  |	  | pin | function  |	  | pin | function  |
+  |-----+-----------|	  |-----+-----------|	  |-----+-----------|
+  |  1  |  GND      |	  |  1	| D0        |	  |  1	| D0        |
+  |  2  |  -AUTOFD  |	  |  2	| D1        |	  |  2	| D1        |
+  |  3  |  SLCT     |	  |  3	| D2        |	  |  3	| D2        |
+  |  4  |  PE       |	  |  4	| D3        |	  |  4	| D3        |
+  |  5  |  D3       |	  |  5	| D4        |	  |  5	| D4        |
+  |  6  |  D2       |	  |  6	| D5        |	  |  6	| D5        |
+  |  7  |  D1       |	  |  7	| D6        |	  |  7	| D6        |
+  |  8  |  D0       |	  |  8	| D7        |	  |  8	| D7        |
+  |  9  |  GND      |	  |  9	| GND       |	  |  9	| GND       |
+  | 10  |  BUSY     |	  +-----------------+	  +-----------------+
+  | 11  | -ACK      |
+  | 12  |  D4       |
+  | 13  |  D7       |
+  | 14  |  D6       |
+  | 15  |  D5       |
+  +-----------------+
+
+VI. Cables
+~~~~~~~~~~
+
+  Cable between interface and PC
+  +----------------------+
+  | interface | LPT port |
+  +-----------+----------+
+  |     1     |   18-25  |
+  |     2     |    14    |
+  |     3     |    13    |
+  |     4     |    12    |
+  |     5     |     5    |
+  |     6     |     4    |
+  |     7     |     3    |
+  |     8     |     2    |
+  |     9     |   18-25  |
+  |    10     |    11    |
+  |    11     |    10    |
+  |    12     |     6    |
+  |    13     |     9    |
+  |    14     |     8    |
+  |    15     |     7    |
+  +-----------+----------+
+
+  Input and output measuring cables
+  +-------------------+
+  | pin | wire colour |
+  +-----+-------------+
+  |  1  | white       |
+  |  2  | yellow      |
+  |  3  | orange      |
+  |  4  | red         |
+  |  5  | magenta     |
+  |  6  | green       |
+  |  7  | blue        |
+  |  8  | black       |
+  |  9  |             |
+  +-------------------+

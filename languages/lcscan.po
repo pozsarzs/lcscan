@@ -1,0 +1,120 @@
+#: frmmain:message01
+msgid "About"
+msgstr ""
+
+#: frmmain:message02
+msgid "Logical circuit scanner"
+msgstr ""
+
+#: frmmain:message03
+msgid "Number converter"
+msgstr ""
+
+#: frmmain:message04
+msgid "Decimal"
+msgstr ""
+
+#: frmmain:message05
+msgid "Hexadecimal"
+msgstr ""
+
+#: frmmain:message06
+msgid "Binary"
+msgstr ""
+
+#: frmmain:message07
+msgid "Convert"
+msgstr ""
+
+#: frmmain:message08
+msgid "Manual scan"
+msgstr ""
+
+#: frmmain:message09
+msgid "Inputs"
+msgstr ""
+
+#: frmmain:message10
+msgid "Outputs"
+msgstr ""
+
+#: frmmain:message11
+msgid "Auto scan"
+msgstr ""
+
+#: frmmain:message12
+msgid "Start"
+msgstr ""
+
+#: frmmain:message13
+msgid "I/O lines"
+msgstr ""
+
+#: frmmain:message14
+msgid "Quit"
+msgstr ""
+
+#: frmmain:message15
+msgid "In"
+msgstr ""
+
+#: frmmain:message16
+msgid "Out"
+msgstr ""
+
+#: frmmain:message17
+msgid "Licence: GNU GPL 3.0 or later"
+msgstr ""
+
+#: frmmain:message18
+msgid "Bad value! (0-255)"
+msgstr ""
+
+#: frmmain:message19
+msgid "Bad value! (0-FF)"
+msgstr ""
+
+#: frmmain:message20
+msgid "Bad value! (0-11111111)"
+msgstr ""
+
+#: frmmain:message21
+msgid "Find"
+msgstr ""
+
+#: frmmain:message22
+msgid "Data type"
+msgstr ""
+
+#: frmmain:message23
+msgid "Next find?"
+msgstr ""
+
+#: frmmain:message24
+msgid "Not found!"
+msgstr ""
+
+#: frmmain:message25
+msgid "Port address"
+msgstr ""
+
+#: frmmain:message26
+msgid "OK"
+msgstr ""
+
+#: frmmain:message27
+msgid "Backend run error!"
+msgstr ""
+
+#: frmmain:message28
+msgid "Wire"
+msgstr ""
+
+#: frmmain:message29
+msgid "Cannot run default browser."
+msgstr ""
+
+#: frmmain:message30
+msgid "Cannot run default mailer."
+msgstr ""
+

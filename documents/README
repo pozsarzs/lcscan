@@ -1,0 +1,66 @@
+
+                       Information about application
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. General information
+~~~~~~~~~~~~~~~~~~~~~~
+  LCScan is an circuit scanner for static logical network. Interface
+connects to paralel port. It has eight TTL level outputs and eight
+overload-protected, Schmitt-trigger inputs.
+    This is a software, which does not cost money (maybe you must pay
+for use Internet). The lope conditions is the acceptance and observance
+of the General Public Licence.
+
+OS support: Linux only.
+Language support: English and Hungarian.
+
+2. Installer packages
+~~~~~~~~~~~~~~~~~~~~~
+ a. for Linux
+  lcscan-0.3r3-i586.tar.gz          binary package
+  lcscan-0.3r3-i586.bin             installer programme
+
+ b. for Windows
+  lcscan-0.3r3-win32.zip            binary package
+  lcscan-0.3r3-win32.exe            installer programme
+
+ c. source package
+  lcscan-0.3r3.tar.gz               source package
+
+3. Settings
+~~~~~~~~~~~
+   On linux use 'LANG' environment variable to set language of the
+   application.
+
+   for example: English:   en_US,
+                Hungarian: hu_HU
+
+4. Important information
+~~~~~~~~~~~~~~~~~~~~~~~~
+Copyright (C) 2006-2012 Pozsar Zsolt
+
+  This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by the
+Free Software Foundation, either version 3 of the License, or (at your
+option) any later version.
+
+  This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+5. Download and contact
+~~~~~~~~~~~~~~~~~~~~~~~
+  Homepage:                     http://www.pozsarzs.hu
+  Facebook:                     http://www.facebook.com/pozsarzs.hu
+
+  Contact:                      Pozsar Zsolt
+  E-mail:                       pozsarzs@gmail.com
+  MSN:                          pozsarzs@gmail.com
+  Skype:                        pozsarzs
+  Phone:                        +36 (56) 470-272
+  Mobilphone:                   +36 (30) 249-5030
+

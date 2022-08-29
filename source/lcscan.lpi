@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="7"/>
+    <General>
+      <Flags>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=""/>
+      <Title Value="LCScan"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="lcscan.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="lcs"/>
+        <CursorPos X="22" Y="30"/>
+        <TopLine Value="12"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="63"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="frmmain.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmmain"/>
+        <CursorPos X="1" Y="314"/>
+        <TopLine Value="289"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="63"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value=""/>
+        <UsageCount Value="10"/>
+        <SyntaxHighlighter Value="None"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="frmmain.lfm"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="frmaddress.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmaddress"/>
+        <CursorPos X="30" Y="66"/>
+        <TopLine Value="42"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="config.inc"/>
+        <CursorPos X="1" Y="25"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="11"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="convert.pas"/>
+        <UnitName Value="CONVERT"/>
+        <CursorPos X="5" Y="175"/>
+        <TopLine Value="158"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="convert/convert.pas"/>
+        <UnitName Value="CONVERT"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+    </Units>
+    <JumpHistory Count="9" HistoryIndex="8">
+      <Position1>
+        <Filename Value="frmmain.pp"/>
+        <Caret Line="224" Column="32" TopLine="198"/>
+      </Position1>
+      <Position2>
+        <Filename Value="frmmain.pp"/>
+        <Caret Line="206" Column="41" TopLine="200"/>
+      </Position2>
+      <Position3>
+        <Filename Value="frmmain.pp"/>
+        <Caret Line="207" Column="41" TopLine="200"/>
+      </Position3>
+      <Position4>
+        <Filename Value="frmmain.pp"/>
+        <Caret Line="209" Column="41" TopLine="200"/>
+      </Position4>
+      <Position5>
+        <Filename Value="frmmain.pp"/>
+        <Caret Line="771" Column="3" TopLine="759"/>
+      </Position5>
+      <Position6>
+        <Filename Value="frmmain.pp"/>
+        <Caret Line="777" Column="3" TopLine="752"/>
+      </Position6>
+      <Position7>
+        <Filename Value="frmmain.pp"/>
+        <Caret Line="28" Column="38" TopLine="17"/>
+      </Position7>
+      <Position8>
+        <Filename Value="frmmain.pp"/>
+        <Caret Line="13" Column="49" TopLine="1"/>
+      </Position8>
+      <Position9>
+        <Filename Value="lcscan.lpr"/>
+        <Caret Line="37" Column="38" TopLine="1"/>
+      </Position9>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <SearchPaths>
+      <OtherUnitFiles Value="convert/"/>
+      <SrcPath Value="$(LazarusDir)/lcl/;$(LazarusDir)/lcl/interfaces/$(LCLWidgetType)/"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <UseLineInfoUnit Value="False"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

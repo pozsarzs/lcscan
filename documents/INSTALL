@@ -1,0 +1,51 @@
+LCScan installation instructions for Linux operation system
+===========================================================
+
+1. Install
+----------
+
+a. Installation from binary '.tar.gz' package
+
+    # cp lcscan-0.3r3-i586.tar.gz /opt
+    # cd /opt
+    # tar -xzf lcscan-0.3r3-i586.tar.gz
+    # cd lcscan
+    # ./create_links
+
+                or
+
+    # tar -xzf lcscan-0.3r3-i586.tar.gz
+    # cd lcscan
+    # ./install
+
+b. Installation from '.bin' package
+
+    # ./lcscan-0.3r3-i586.bin
+
+c. Installation from source package
+     
+    # tar -xzf lcscan-0.3r3.tar.gz
+    # ./configure
+    # make
+    # make install
+
+2. Uninstall
+------------
+
+a. If you installed it from binary '.tar.gz' package
+
+    # /opt/lcscan/remove_links
+    # rm -r /opt/lcscan/
+
+            or
+
+    # /opt/lcscan/uninstall
+
+b. If you installed it from '.bin' package
+
+    # /opt/lcscan/uninstall
+
+c. If you installed it from source package:
+
+    # make uninstall
+

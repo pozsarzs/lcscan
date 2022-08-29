@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=LCScan
+Name[hu]=LCScan
+Exec=lcscan
+Icon=lcscan.xpm
+Info=LCScan
+Comment=Logical circuit scanner
+Comment[hu]=Logikai áramkör szkenner
+Type=Application
+Categories=Application;Electronics;
+Terminal=false
+StartupNotify=true

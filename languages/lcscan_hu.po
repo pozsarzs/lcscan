@@ -1,0 +1,119 @@
+#: frmmain:message01
+msgid "About"
+msgstr "Névjegy"
+
+#: frmmain:message02
+msgid "Logical circuit scanner"
+msgstr "Logikai áramkör szkenner"
+
+#: frmmain:message03
+msgid "Number converter"
+msgstr "Számkonverter"
+
+#: frmmain:message04
+msgid "Decimal"
+msgstr "Decimális"
+
+#: frmmain:message05
+msgid "Hexadecimal"
+msgstr "Hexadecimális"
+
+#: frmmain:message06
+msgid "Binary"
+msgstr "Bináris"
+
+#: frmmain:message07
+msgid "Convert"
+msgstr "Konvertál"
+
+#: frmmain:message08
+msgid "Manual scan"
+msgstr "Kézi szkennelés"
+
+#: frmmain:message09
+msgid "Inputs"
+msgstr "Bemenetek"
+
+#: frmmain:message10
+msgid "Outputs"
+msgstr "Kimenetek"
+
+#: frmmain:message11
+msgid "Auto scan"
+msgstr "Auto szkennelés"
+
+#: frmmain:message12
+msgid "Start"
+msgstr "Indítás"
+
+#: frmmain:message13
+msgid "I/O lines"
+msgstr "I/O vonalak"
+
+#: frmmain:message14
+msgid "Quit"
+msgstr "Kilépés"
+
+#: frmmain:message15
+msgid "In"
+msgstr "Be"
+
+#: frmmain:message16
+msgid "Out"
+msgstr "Ki"
+
+#: frmmain:message17
+msgid "Licence: GNU GPL 3.0 or later"
+msgstr "Licenc: GNU GPL 3.0 vagy későbbi"
+
+#: frmmain:message18
+msgid "Bad value! (0-255)"
+msgstr "Rossz érték! (0-255)"
+
+#: frmmain:message19
+msgid "Bad value! (0-FF)"
+msgstr "Rossz érték! (0-FF)"
+
+#: frmmain:message20
+msgid "Bad value! (0-11111111)"
+msgstr "Rossz érték! (0-11111111)"
+
+#: frmmain:message21
+msgid "Find"
+msgstr "Keresés"
+
+#: frmmain:message22
+msgid "Data type"
+msgstr "Adattípus"
+
+#: frmmain:message23
+msgid "Next find?"
+msgstr "Következő találat?"
+
+#: frmmain:message24
+msgid "Not found!"
+msgstr "Nem találtam!"
+
+#: frmmain:message25
+msgid "Port address"
+msgstr "Kapu cím"
+
+#: frmmain:message26
+msgid "OK"
+msgstr "Rendben"
+
+#: frmmain:message27
+msgid "Backend run error!"
+msgstr "Háttérprogram futási hiba!"
+
+#: frmmain:message28
+msgid "Wire"
+msgstr "Vezeték"
+
+#: frmmain:message29
+msgid "Cannot run default browser."
+msgstr "Nem tudom futtatni az alapértelmezett böngészőt!"
+
+#: frmmain:message30
+msgid "Cannot run default mailer."
+msgstr "Nem tudom futtatni az alapértelmezett levelezőt!"

@@ -1,0 +1,549 @@
+# EESchema Netlist Version 1.0 generee le  3/11/2006-10:12:29
+(
+ ( 454AE350 $noname  J5 CONN_1 {Lib=CONN_1}
+  (    1 VCC )
+ )
+ ( 454AE34B $noname  J6 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( 454AE264 $noname  J4 BNC {Lib=BNC}
+  (    1 N-000001 )
+  (    2 GND )
+ )
+ ( 454AE145 $noname  C15 1n {Lib=C}
+  (    1 N-000003 )
+  (    2 GND )
+ )
+ ( 454AE142 $noname  C14 1n {Lib=C}
+  (    1 N-000004 )
+  (    2 GND )
+ )
+ ( 454AE13B $noname  U5 7805 {Lib=7805}
+  (   VO N-000004 )
+  (   VI N-000003 )
+  (  GND GND )
+ )
+ ( 454AE131 $noname  D18 BY135 {Lib=DIODE}
+  (    1 N-000001 )
+  (    2 N-000003 )
+ )
+ ( 454AE12A $noname  C16 1000u {Lib=CAPAPOL}
+  (    1 N-000003 )
+  (    2 GND )
+ )
+ ( 448AA796 $noname  R9 470 {Lib=R}
+  (    1 N-000002 )
+  (    2 GND )
+ )
+ ( 448AA791 $noname  D17 LED {Lib=LED}
+  (    1 VCC )
+  (    2 N-000002 )
+ )
+ ( 448AA789 $noname  SW1 Power {Lib=SPST}
+  (    1 N-000004 )
+  (    2 VCC )
+ )
+ ( 448AA6D2 $noname  C9 1u {Lib=CAPAPOL}
+  (    1 N-000004 )
+  (    2 GND )
+ )
+ ( 448AA68F $noname  C10 33n {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( 448AA68C $noname  C11 33n {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( 448AA689 $noname  C12 33n {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( 448AA685 $noname  C13 33n {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( 448A815C $noname  J1 DB15 {Lib=DB15}
+  (    1 GND )
+  (    2 N-000006 )
+  (    3 N-000016 )
+  (    4 N-000017 )
+  (    5 N-000014 )
+  (    6 N-000013 )
+  (    7 N-000012 )
+  (    8 N-000010 )
+  (    9 N-000005 )
+  (   10 N-000019 )
+  (   11 N-000018 )
+  (   12 N-000007 )
+  (   13 N-000008 )
+  (   14 N-000009 )
+  (   15 N-000011 )
+ )
+ ( 448A814C $noname  U4 74LS157 {Lib=74LS157}
+  (    1 N-000006 )
+  (    2 N-000027 )
+  (    3 N-000025 )
+  (    4 N-000019 )
+  (    5 N-000026 )
+  (    6 N-000022 )
+  (    7 N-000018 )
+  (    8 GND )
+  (    9 N-000017 )
+  (   10 N-000020 )
+  (   11 N-000021 )
+  (   12 N-000016 )
+  (   13 N-000023 )
+  (   14 N-000024 )
+  (   15 N-000005 )
+  (   16 VCC )
+ )
+ ( 448A80E1 $noname  U1 74LS14 {Lib=74LS14}
+  (    1 N-000032 )
+  (    2 N-000021 )
+  (    7 GND )
+  (    8 N-000022 )
+  (    9 N-000029 )
+  (   10 N-000020 )
+  (   11 N-000030 )
+  (   12 N-000024 )
+  (   13 N-000031 )
+  (   14 VCC )
+ )
+ ( 448A80DA $noname  U2 74LS14 {Lib=74LS14}
+  (    1 N-000035 )
+  (    2 N-000023 )
+  (    3 N-000034 )
+  (    4 N-000027 )
+  (    5 N-000033 )
+  (    6 N-000026 )
+  (    7 GND )
+  (   12 N-000025 )
+  (   13 N-000036 )
+  (   14 VCC )
+ )
+ ( 448A7EE0 $noname  D1 1N4148 {Lib=DIODE}
+  (    1 GND )
+  (    2 N-000029 )
+ )
+ ( 448A7EDF $noname  D6 1N4148 {Lib=DIODE}
+  (    1 GND )
+  (    2 N-000030 )
+ )
+ ( 448A7EDE $noname  D2 1N4148 {Lib=DIODE}
+  (    1 GND )
+  (    2 N-000031 )
+ )
+ ( 448A7EDD $noname  D7 1N4148 {Lib=DIODE}
+  (    1 GND )
+  (    2 N-000032 )
+ )
+ ( 448A7EDC $noname  D3 1N4148 {Lib=DIODE}
+  (    1 GND )
+  (    2 N-000033 )
+ )
+ ( 448A7EDB $noname  D8 1N4148 {Lib=DIODE}
+  (    1 GND )
+  (    2 N-000034 )
+ )
+ ( 448A7EDA $noname  D4 1N4148 {Lib=DIODE}
+  (    1 GND )
+  (    2 N-000035 )
+ )
+ ( 448A7ED9 $noname  D5 1N4148 {Lib=DIODE}
+  (    1 GND )
+  (    2 N-000036 )
+ )
+ ( 448A7EB2 $noname  D9 1N4148 {Lib=DIODE}
+  (    1 N-000029 )
+  (    2 VCC )
+ )
+ ( 448A7EB1 $noname  D14 1N4148 {Lib=DIODE}
+  (    1 N-000030 )
+  (    2 VCC )
+ )
+ ( 448A7EB0 $noname  D10 1N4148 {Lib=DIODE}
+  (    1 N-000031 )
+  (    2 VCC )
+ )
+ ( 448A7EAF $noname  D15 1N4148 {Lib=DIODE}
+  (    1 N-000032 )
+  (    2 VCC )
+ )
+ ( 448A7E8C $noname  D11 1N4148 {Lib=DIODE}
+  (    1 N-000033 )
+  (    2 VCC )
+ )
+ ( 448A7E88 $noname  D16 1N4148 {Lib=DIODE}
+  (    1 N-000034 )
+  (    2 VCC )
+ )
+ ( 448A7E83 $noname  D12 1N4148 {Lib=DIODE}
+  (    1 N-000035 )
+  (    2 VCC )
+ )
+ ( 448A7DEF $noname  D13 1N4148 {Lib=DIODE}
+  (    1 N-000036 )
+  (    2 VCC )
+ )
+ ( 448A7CFC $noname  C3 100 {Lib=C}
+  (    1 GND )
+  (    2 N-000033 )
+ )
+ ( 448A7CFB $noname  C8 100 {Lib=C}
+  (    1 GND )
+  (    2 N-000034 )
+ )
+ ( 448A7CFA $noname  C4 100 {Lib=C}
+  (    1 GND )
+  (    2 N-000035 )
+ )
+ ( 448A7CF9 $noname  C5 100 {Lib=C}
+  (    1 GND )
+  (    2 N-000036 )
+ )
+ ( 448A7CD6 $noname  C7 100 {Lib=C}
+  (    1 N-000032 )
+  (    2 GND )
+ )
+ ( 448A7CCD $noname  C2 100 {Lib=C}
+  (    1 N-000031 )
+  (    2 GND )
+ )
+ ( 448A7CC9 $noname  C6 100 {Lib=C}
+  (    1 N-000030 )
+  (    2 GND )
+ )
+ ( 448A7CB6 $noname  C1 100 {Lib=C}
+  (    1 N-000029 )
+  (    2 GND )
+ )
+ ( 448A7C74 $noname  R1 470 {Lib=R}
+  (    1 N-000043 )
+  (    2 N-000029 )
+ )
+ ( 448A7C72 $noname  R6 470 {Lib=R}
+  (    1 N-000037 )
+  (    2 N-000030 )
+ )
+ ( 448A7C6E $noname  R2 470 {Lib=R}
+  (    1 N-000038 )
+  (    2 N-000031 )
+ )
+ ( 448A7C6C $noname  R7 470 {Lib=R}
+  (    1 N-000039 )
+  (    2 N-000032 )
+ )
+ ( 448A7C69 $noname  R3 470 {Lib=R}
+  (    1 N-000040 )
+  (    2 N-000033 )
+ )
+ ( 448A7C67 $noname  R8 470 {Lib=R}
+  (    1 N-000041 )
+  (    2 N-000034 )
+ )
+ ( 448A7C32 $noname  R4 470 {Lib=R}
+  (    1 N-000042 )
+  (    2 N-000035 )
+ )
+ ( 448A7218 $noname  U3 74LS245 {Lib=74LS245}
+  (    1 GND )
+  (    2 N-000015 )
+  (    3 N-000052 )
+  (    4 N-000046 )
+  (    5 N-000051 )
+  (    6 N-000047 )
+  (    7 N-000050 )
+  (    8 N-000048 )
+  (    9 N-000049 )
+  (   10 GND )
+  (   11 N-000010 )
+  (   12 N-000011 )
+  (   13 N-000012 )
+  (   14 N-000009 )
+  (   15 N-000013 )
+  (   16 N-000008 )
+  (   17 N-000014 )
+  (   18 N-000007 )
+  (   19 GND )
+  (   20 VCC )
+ )
+ ( 448A71C8 $noname  R5 470 {Lib=R}
+  (    1 N-000044 )
+  (    2 N-000036 )
+ )
+ ( 448A71A1 $noname  J3 DB9 {Lib=DB9}
+  (    1 N-000049 )
+  (    2 N-000050 )
+  (    3 N-000051 )
+  (    4 N-000052 )
+  (    5 N-000015 )
+  (    6 N-000048 )
+  (    7 N-000047 )
+  (    8 N-000046 )
+  (    9 GND )
+ )
+ ( 448A7163 $noname  J2 DB9 {Lib=DB9}
+  (    1 N-000043 )
+  (    2 N-000038 )
+  (    3 N-000040 )
+  (    4 N-000042 )
+  (    5 N-000044 )
+  (    6 N-000037 )
+  (    7 N-000039 )
+  (    8 N-000041 )
+  (    9 GND )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 ""
+ J4 1
+ D18 1
+Net 2 ""
+ R9 1
+ D17 2
+Net 3 ""
+ C15 1
+ U5 VI
+ D18 2
+ C16 1
+Net 4 ""
+ C14 1
+ U5 VO
+ SW1 1
+ C9 1
+Net 5 ""
+ J1 9
+ U4 15
+Net 6 ""
+ J1 2
+ U4 1
+Net 7 ""
+ J1 12
+ U3 18
+Net 8 ""
+ J1 13
+ U3 16
+Net 9 ""
+ J1 14
+ U3 14
+Net 10 ""
+ J1 8
+ U3 11
+Net 11 ""
+ J1 15
+ U3 12
+Net 12 ""
+ J1 7
+ U3 13
+Net 13 ""
+ J1 6
+ U3 15
+Net 14 ""
+ J1 5
+ U3 17
+Net 15 ""
+ U3 2
+ J3 5
+Net 16 ""
+ J1 3
+ U4 12
+Net 17 ""
+ J1 4
+ U4 9
+Net 18 ""
+ J1 11
+ U4 7
+Net 19 ""
+ J1 10
+ U4 4
+Net 20 ""
+ U4 10
+ U1 10
+Net 21 ""
+ U4 11
+ U1 2
+Net 22 ""
+ U4 6
+ U1 8
+Net 23 ""
+ U4 13
+ U2 2
+Net 24 ""
+ U4 14
+ U1 12
+Net 25 ""
+ U4 3
+ U2 12
+Net 26 ""
+ U4 5
+ U2 6
+Net 27 ""
+ U4 2
+ U2 4
+Net 28 "VCC"
+ J5 1
+ D17 1
+ SW1 2
+ C10 1
+ C11 1
+ C12 1
+ C13 1
+ U4 16
+ U1 14
+ U1 14
+ U2 14
+ U2 14
+ U1 14
+ U1 14
+ U2 14
+ U2 14
+ D9 2
+ D14 2
+ D10 2
+ D15 2
+ D11 2
+ D16 2
+ D12 2
+ D13 2
+ U3 20
+Net 29 ""
+ U1 9
+ D1 2
+ D9 1
+ C1 1
+ R1 2
+Net 30 ""
+ U1 11
+ D6 2
+ D14 1
+ C6 1
+ R6 2
+Net 31 ""
+ U1 13
+ D2 2
+ D10 1
+ C2 1
+ R2 2
+Net 32 ""
+ U1 1
+ D7 2
+ D15 1
+ C7 1
+ R7 2
+Net 33 ""
+ U2 5
+ D3 2
+ D11 1
+ C3 2
+ R3 2
+Net 34 ""
+ U2 3
+ D8 2
+ D16 1
+ C8 2
+ R8 2
+Net 35 ""
+ U2 1
+ D4 2
+ D12 1
+ C4 2
+ R4 2
+Net 36 ""
+ U2 13
+ D5 2
+ D13 1
+ C5 2
+ R5 2
+Net 37 ""
+ R6 1
+ J2 6
+Net 38 ""
+ R2 1
+ J2 2
+Net 39 ""
+ R7 1
+ J2 7
+Net 40 ""
+ R3 1
+ J2 3
+Net 41 ""
+ R8 1
+ J2 8
+Net 42 ""
+ R4 1
+ J2 4
+Net 43 ""
+ R1 1
+ J2 1
+Net 44 ""
+ R5 1
+ J2 5
+Net 45 "GND"
+ J6 1
+ J4 2
+ C15 2
+ C14 2
+ U5 GND
+ C16 2
+ R9 2
+ C9 2
+ C10 2
+ C11 2
+ C12 2
+ C13 2
+ J1 1
+ U4 8
+ U1 7
+ U1 7
+ U2 7
+ U2 7
+ U1 7
+ U1 7
+ U2 7
+ U2 7
+ D1 1
+ D6 1
+ D2 1
+ D7 1
+ D3 1
+ D8 1
+ D4 1
+ D5 1
+ C3 1
+ C8 1
+ C4 1
+ C5 1
+ C7 2
+ C2 2
+ C6 2
+ C1 2
+ U3 19
+ U3 1
+ U3 10
+ J3 9
+ J2 9
+Net 46 ""
+ U3 4
+ J3 8
+Net 47 ""
+ U3 6
+ J3 7
+Net 48 ""
+ U3 8
+ J3 6
+Net 49 ""
+ U3 9
+ J3 1
+Net 50 ""
+ U3 7
+ J3 2
+Net 51 ""
+ U3 5
+ J3 3
+Net 52 ""
+ U3 3
+ J3 4
+}
+#End

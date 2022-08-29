@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1266686313"/>
+  <Params Value=" -MObjFPC -Scgi -O1 -WG -vewnhi -l -Fu/home/pozsarzs/Projektek/lcscan/lcscan-0.3r3/source/convert/ -Fu/usr/lib/lazarus/0.9.28.2/lcl/units/i386-linux/ -Fu/usr/lib/lazarus/0.9.28.2/lcl/units/i386-linux/gtk2/ -Fu/usr/lib/lazarus/0.9.28.2/packager/units/i386-linux/ -Fu/home/pozsarzs/Projektek/lcscan/lcscan-0.3r3/source/ -Fu. -FE/home/pozsarzs/Projektek/lcscan/lcscan-0.3r3/source/ -olcscan -dLCL -dLCLgtk2 lcscan.lpr"/>
+</CONFIG>

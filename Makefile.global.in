@@ -1,0 +1,40 @@
+# +----------------------------------------------------------------------------+
+# | LCScan v0.3r3 * Logical circuit scanner                                    |
+# | Copyright (C) 2006-2012 Pozsar Zsolt <pozsarzs@gmail.com>                  |
+# | Makefile.global(.in)                                                       |
+# | Input file for make file                                                   |
+# +----------------------------------------------------------------------------+
+
+name		= lcscan
+version		= @version@
+architecture	= @architecture@
+
+prefix		= @prefix@
+bindir		= @bindir@
+datadir		= @datadir@
+exec_prefix	= @exec_prefix@
+libdir		= @libdir@
+localedir	= @datadir@/locale
+mandir		= @datadir@/man
+srcdir		= @srcdir@
+sysconfdir	= @sysconfdir@
+lazdir		= @lazdir@
+binmode		= 0755
+txtmode		= 0644
+
+install		= @install@
+make		= @make@
+rm		= @rm@ --force
+
+fpflag		= @fpflag@ -TLinux -dUseFHS -MObjFPC -Scgi -O1 -WG -ve \
+                  -Fi./lib/i386-linux/ \
+                  -Fu@lazdir@/lcl/units/i386-linux/ \
+                  -Fu@lazdir@/lcl/units/i386-linux/gtk2/ \
+                  -Fu@lazdir@/packager/units/i386-linux/ \
+                  -Fu. \
+                  -Fu./lib/i386-linux/ \
+                  -FE./lib/i386-linux/ \
+                  -dLCL \
+                  -dLCLgtk2
+
+
